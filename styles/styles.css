@@ -1,0 +1,180 @@
+/*MINI RESET*/
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,input,textarea {
+    padding:0;
+    margin:0;
+    outline:none;
+    list-style:none;
+    font-family: 'Open Sans', sans-serif;
+}
+/** {*/
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+/*}*/
+a {
+    text-decoration: none;
+}
+/*END OF MINI RESET*/
+
+body {
+	max-width: 100%;
+	color: #000;
+}
+
+/*----------------header--------------*/
+header {
+	max-width: 1166px;
+	height: 364px;
+	margin: 0 auto;
+	background: url("../images/bg_header.jpg") center;
+}
+
+
+h1:hover {
+	display: none;
+}
+
+h1 {
+	display: inline-block;
+	margin-top: 65px;
+	margin-left: 120px;
+}
+
+nav.head {
+	float: right;
+	margin-right: 308px;
+	margin-top: 32px;
+}
+
+nav.head a {
+	padding-left: 17px;
+	color: #909090;
+}
+
+nav.head a:first-child {
+	padding-left: 0;
+} 
+
+nav.head a.active, nav.head a:hover {
+	color: #fff;
+}
+
+/*----------------content--------------*/
+#content {
+	float: left;
+	max-width: 629px;
+	margin: 60px 45px 80px 90px;
+}
+
+h2 {
+	font-size: 32px;  
+}
+
+h3 {
+	font-size: 15px; 
+}
+
+article {
+	padding-bottom: 50px;
+	border-bottom: 1px solid #BABABA;
+}
+
+span.date {
+	color: #7F7F7F;
+}
+
+span.blue-text {
+	color: #2F9BFF;
+}
+
+p {
+	color: #000;
+	font-size: 17px;
+}
+
+.left-right-arrows {
+	padding-top: 80px;
+}
+
+.left-right-arrows a:first-child {
+	float: left;
+}
+
+.left-right-arrows a {
+	float: right;
+}
+
+.left-right-arrows span {
+	font-size: 37px;
+	color: #848484;
+}
+/*----------------aside---------------*/
+aside {
+	background: #F5F5F5;
+	padding-top: 63px;
+}
+
+aside h3, aside p, aside li {
+	line-height: 1.5;
+}
+
+/*----------------footer--------------*/
+footer {
+	clear: both;
+	/*overflow: hidden;*/
+	margin-bottom: 100px;
+}
+
+#pre-footer {
+	text-align: center;
+	background: #569FF2;
+}
+
+#pre-footer ul.icons {
+	margin: 30px;
+	display: inline-block;
+}
+
+ul.icons li {
+	float: left;
+	padding-left: 15px;
+}
+
+ul.icons li a {
+	overflow: hidden;
+	width: 44px;
+	height: 44px;
+	display: block;
+	border: 2px solid #FFF;
+	border-radius: 50%;
+}
+
+#post-footer {
+	background: #4B8AD1;
+	height: 74px;
+}
+
+#post-footer span {
+	float: left;
+	margin-top: 25px;
+	margin-left: 70px;	
+}
+
+nav.foot {
+	float: right;
+	margin-right: 72px;
+	margin-top: 25px;
+}
+
+nav.foot a {
+	padding-left: 40px;
+	color: #fff;
+}
+
+nav.foot a:first-child {
+	padding-left: 0;
+} 
+
+nav.foot a:hover {
+	color: #cacaca	;
+}
